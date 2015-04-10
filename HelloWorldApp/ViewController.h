@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    IBOutlet UILabel *helloLabel;
+    IBOutlet UITextField *nameTextField;
+}
 
+- (IBAction)sayHi:(id)sender;
 
 @end
 
